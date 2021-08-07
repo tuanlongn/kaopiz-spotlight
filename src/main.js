@@ -3,6 +3,10 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 
+import "./common/antd";
+import "./styles/main.less";
+import "./router/hooks";
+
 Vue.config.productionTip = false;
 
 new Vue({
